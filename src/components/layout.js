@@ -1,6 +1,8 @@
-import React from "react";
-import Header from "./header";
-import Footer from "./footer";
+import React from 'react';
+import Header from './header';
+import Footer from './footer';
+import ScrollTop from '../elements/scrollTop';
+import "swiper/css";
 
 function Layout({ children }) {
   return (
@@ -9,6 +11,7 @@ function Layout({ children }) {
       <div className="spacer"></div>
       {children}
       <Footer />
+      <ScrollTop />
     </div>
   );
 }
