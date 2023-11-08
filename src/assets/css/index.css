@@ -61,6 +61,37 @@ html ::-webkit-scrollbar-thumb {
   color: var(--ak-color-white);
 }
 
+.ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  background: rgba(220, 53, 69, 0.3);
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.15s ease-in-out 0s, height 0.2s ease-in-out 0s,
+    width 0.2s ease-in-out 0s;
+  will-change: width, height, transform, border;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.dot {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: rgb(220, 53, 69);
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.15s ease-in-out 0s, height 0.2s ease-in-out 0s,
+    width 0.2s ease-in-out 0s;
+  z-index: 999;
+  pointer-events: none;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -72,6 +103,7 @@ body {
   margin: 0 !important;
   min-width: 20rem;
   padding: 0;
+  cursor: none;
 }
 
 a {
@@ -116,7 +148,6 @@ a:hover {
   border-radius: 50%;
   bottom: 20px;
   color: #fff;
-  cursor: pointer;
   font-size: 18px;
   height: 45px;
   outline: none;
@@ -290,7 +321,6 @@ a:hover {
 }
 
 .skill-container {
-  cursor: pointer;
 }
 
 .skill-container h6 {
@@ -379,7 +409,6 @@ a:hover {
 }
 
 .project-card {
-  cursor: pointer;
 }
 
 .project-card:hover img {
@@ -419,7 +448,6 @@ a:hover {
 .prev-arrow {
   position: absolute;
   box-shadow: inset 0 0 0 1px var(--ak-color-3);
-  cursor: pointer !important;
   height: 45px;
   top: 40%;
   transform: translateY(-50%);
@@ -446,7 +474,6 @@ a:hover {
 .next-arrow {
   position: absolute;
   box-shadow: inset 0 0 0 1px var(--ak-color-3);
-  cursor: pointer !important;
   height: 45px;
   top: 40%;
   transform: translateY(-50%);
@@ -531,7 +558,6 @@ a:hover {
   transition: background-position
     calc(var(--ak-transition-duration) * 2)
     var(--ak-transition-easing);
-  cursor: pointer;
   text-align: start;
 }
 
