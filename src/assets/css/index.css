@@ -577,3 +577,18 @@ a:hover {
   color: var(--ptf-color-black);
 }
 /* Contact section */
+
+@media screen and (max-width: 992px) {
+  .ak-nav-container .header-links {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ak-nav-container {
+    height: auto;
+  }
+  .ak-nav-container .contact {
+    display: none;
+  }
+}
