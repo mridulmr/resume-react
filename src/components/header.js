@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import Logo from '../assets/images/logo.png'
 
 function Header() {
   return (
@@ -10,7 +11,7 @@ function Header() {
         </Nav>
         <Nav className="me-auto">
           <Navbar.Brand href="#home">
-            <img src="https://moonex.ibthemespro.com/assets/img/root/logo-center-dark.png" />
+            <img src={Logo} alt={Logo} width={100} height={100} />
           </Navbar.Brand>
         </Nav>
         <Nav className="header-links">
