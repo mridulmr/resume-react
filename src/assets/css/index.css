@@ -71,7 +71,7 @@ html ::-webkit-scrollbar-thumb {
   border-radius: 100%;
   transform: translate(-50%, -50%);
   transition: opacity 0.15s ease-in-out 0s, height 0.2s ease-in-out 0s,
-    width 0.2s ease-in-out 0s;
+    width 0.2s ease-in-out 5000s;
   will-change: width, height, transform, border;
   z-index: 999;
   pointer-events: none;
