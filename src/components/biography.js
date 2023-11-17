@@ -14,26 +14,33 @@ function Biography() {
             <h5>Biography</h5>
             <div className="card-spacer"></div>
             <p style={{ maxWidth: '15.3125rem' }}>
-              Work for money and design for love! I’m Bruno, an UI/UX
-              Interaction Designer based in Poland.
+              Work for money and develope for love! I’m Akanksha, an
+              Fullstack Frontend Developer based in Gujarat.
             </p>
             <div className="card-spacer"></div>
           </div>
           <div className="info-container left">
-            <h5>Biography</h5>
+            <h5>Contact</h5>
             <div className="card-spacer"></div>
             <p style={{ maxWidth: '15.3125rem' }}>
-              Work for money and design for love! I’m Bruno, an UI/UX
-              Interaction Designer based in Poland.
+              Ahemdabad, Gujarat
+              <br />
+              akku@gmail.com
+              <br />
+              +91-1234567890
             </p>
             <div className="card-spacer"></div>
           </div>
           <div className="info-container left">
-            <h5>Biography</h5>
+            <h5>Services</h5>
             <div className="card-spacer"></div>
             <p style={{ maxWidth: '15.3125rem' }}>
-              Work for money and design for love! I’m Bruno, an UI/UX
-              Interaction Designer based in Poland.
+              Web Designing
+              <br />
+              Web Development
+              <br />
+              Animation
+              <br />
             </p>
             <div className="card-spacer"></div>
           </div>
