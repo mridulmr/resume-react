@@ -617,4 +617,14 @@ a:hover {
   .advantage-heading {
     font-size: 2rem;
   }
+  .footer {
+    text-align: center;
+    padding: 2.5rem 0;
+  }
+  .footer .nav {
+    justify-content: center;
+  }
+  .footer .row {
+    gap: 0px;
+  }
 }

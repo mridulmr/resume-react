@@ -6,8 +6,18 @@ import Biography from './components/biography';
 import Advantages from './components/advantages';
 import Education from './components/education';
 import Contact from './components/contact';
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      offset: 20,
+      easing: 'ease-in-out',
+      once: true,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <Layout>
       <Container>
@@ -18,11 +28,29 @@ function App() {
             xl={{ span: 10, offset: 1 }}
           >
             <h1 className="banner-h1">
-              Akanksha Kshatriya
+              <span
+                data-aos="fade-in"
+                data-aos-duration="700"
+                data-aos-delay="400"
+              >
+                Akanksha Kshatriya
+              </span>
               <br />
-              Fullstack Frontend Developer
+              <span
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="500"
+              >
+                Fullstack Frontend Developer
+              </span>
               <br />
-              Based in Gujarat
+              <span
+                data-aos="fade-in"
+                data-aos-duration="900"
+                data-aos-delay="600"
+              >
+                Based in Gujarat
+              </span>
             </h1>
           </Col>
         </Row>
