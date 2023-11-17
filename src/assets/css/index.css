@@ -130,7 +130,7 @@ a:hover {
 }
 
 .ak-nav-container {
-  height: 12.5rem;
+  height: 8rem;
 }
 
 .ak-nav-container a {
@@ -582,6 +582,10 @@ a:hover {
   .ak-nav-container .header-links {
     flex-direction: row;
   }
+  .ring,
+  .dot {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -590,5 +594,27 @@ a:hover {
   }
   .ak-nav-container .contact {
     display: none;
+  }
+  .banner-h1 {
+    font-size: 1.7rem;
+  }
+  .row {
+    gap: 1.5rem;
+  }
+  .info-container .card-spacer {
+    height: 1rem;
+  }
+  .spacer {
+    height: 2.5rem;
+  }
+  .info-container {
+    align-items: center !important;
+  }
+  .info-container p {
+    text-align: center;
+    max-width: max-content !important;
+  }
+  .advantage-heading {
+    font-size: 2rem;
   }
 }
