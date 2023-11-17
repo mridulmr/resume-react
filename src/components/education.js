@@ -91,7 +91,21 @@ function Education() {
         <h2 className="advantage-heading">My Latest Projects</h2>
         <Spacer />
         <div className="position-relative">
-          <Swiper ref={sliderRef} spaceBetween={50} slidesPerView={3}>
+          <Swiper
+            ref={sliderRef}
+            spaceBetween={50}
+            breakpoints={{
+              576: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              986: {
+                slidesPerView: 3,
+              }
+            }}
+          >
             <SwiperSlide>
               <div className="project-card">
                 <div
