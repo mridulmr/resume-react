@@ -5,19 +5,19 @@ import Spacer from '../elements/spacer';
 function Contact() {
   return (
     <Container className="text-center">
-      <div className="contact-container">
-      <Spacer />
-      <Spacer />
-        <div className='d-inline-flex flex-column justify-content-start align-items-start'>
-          <span>
+      <div className="contact-container" data-aos="zoom-in">
+        <Spacer />
+        <Spacer />
+        <div className="d-inline-flex flex-column justify-content-start align-items-start">
+          <span data-aos="fade-right" data-aos-delay="600">
             Describe your<br></br>project
           </span>
           <div className="spacer-custom"></div>
-          <h1>
+          <h1 data-aos="fade-right" data-aos-delay="700">
             Call<br></br>Akku
           </h1>
           <div className="spacer-custom"></div>
-          <div>
+          <div data-aos="fade-right" data-aos-delay="800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"

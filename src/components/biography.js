@@ -9,6 +9,9 @@ function Biography() {
           xs={{ span: 12, order: 2 }}
           md={{ span: 6, order: 2 }}
           xl={{ span: 3, order: 1 }}
+          data-aos="fade-right"
+          data-aos-duration="700"
+          data-aos-delay="500"
         >
           <div className="info-container left">
             <h5>Biography</h5>
@@ -49,6 +52,9 @@ function Biography() {
           xs={{ span: 12, order: 1 }}
           md={{ span: 10, order: 1 }}
           xl={{ span: 6, order: 2 }}
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-delay="500"
         >
           <div className="banner-image-container">
             <img
@@ -73,6 +79,9 @@ function Biography() {
           md={{ span: 6, order: 3 }}
           xl={{ span: 3, order: 3 }}
           style={{ textAlign: 'end' }}
+          data-aos="fade-left"
+          data-aos-duration="700"
+          data-aos-delay="500"
         >
           <div className="info-container right">
             <h5>Years of Experience</h5>

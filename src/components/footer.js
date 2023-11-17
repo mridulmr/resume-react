@@ -6,13 +6,13 @@ function Footer() {
     <Container className="footer">
       <Row className="justify-content-between">
         <Col xs={12} md={6} lg="auto">
-          <p>@2023 Bitwit. All Rights Reserved.</p>
+          <p data-aos="fade-up">@2023 Bitwit. All Rights Reserved.</p>
         </Col>
         <Col xs={12} md={6} lg="auto">
-          <p>akku@gmail.com</p>
+          <p data-aos="fade-up">akku@gmail.com</p>
         </Col>
         <Col xs={12} md={6} lg="auto">
-          <Nav>
+          <Nav data-aos="fade-up">
             <Nav.Link href="#deets">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
