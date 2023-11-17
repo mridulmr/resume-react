@@ -54,13 +54,18 @@ function Biography() {
             <img
               src="https://moonex.ibthemespro.com/assets/img/root/about-me/about-me-main-image-layer-2.png"
               style={{ zIndex: 2 }}
+              alt="ima"
             />
             <img
               className="lay"
               src="https://moonex.ibthemespro.com/assets/img/root/about-me/about-me-main-image-mask.png"
               srcSet="https://moonex.ibthemespro.com/assets/img/about-me-main-image.jpg"
+              alt="ima"
             />
-            <img src="https://moonex.ibthemespro.com/assets/img/root/about-me/about-me-main-image-layer-1.png" />
+            <img
+              src="https://moonex.ibthemespro.com/assets/img/root/about-me/about-me-main-image-layer-1.png"
+              alt="ima"
+            />
           </div>
         </Col>
         <Col
